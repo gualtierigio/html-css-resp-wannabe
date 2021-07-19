@@ -80,8 +80,9 @@ img {
   }
 
   .row{
-    margin-top: 20px;
+    margin-top: 0;
     width: 576px;
+    padding-top: 15px;
   }
 
   .row h1{
@@ -97,6 +98,22 @@ img {
   img {
     height: 70px;
   }
-  
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  width: 100%;
+}
+
+#why{
+  background-color: rgb(252, 252, 152);
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  margin-top: 10px;
+}
+
   
 }
